@@ -1,0 +1,85 @@
+/* Estilos principais para o formulário de registro */
+.userRegistrationFormEquip {
+  width: 604px; /* Define a largura do formulário */
+  margin: 100px auto; /* Adiciona margem superior de 100px e centraliza horizontalmente */
+  margin-left: 250px; /* Adiciona espaço à esquerda, provavelmente para compensar uma sidebar fixa */
+  padding: 20px; /* Adiciona espaçamento interno ao redor do conteúdo */
+  background-color: #fff; /* Define a cor de fundo do formulário como branco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra ao redor para destacar o formulário */
+  border-radius: 25px; /* Arredonda as bordas do formulário */
+}
+
+/* Estilos para cada grupo de formulários */
+.formGroup {
+  margin-bottom: 20px; /* Espaço inferior entre os grupos de campos do formulário */
+}
+
+/* Estilos aplicados a textarea, input de texto, data e select dentro de .formGroup */
+.formGroup textarea,
+.formGroup input[type='text'],
+.formGroup input[type='date'],
+.formGroup select {
+  width: 100%; /* Faz com que os campos ocupem 100% da largura do container */
+  margin-bottom: 10px; /* Espaçamento inferior entre os campos */
+  border: none; /* Remove as bordas padrão dos campos */
+  border-bottom: 1px solid #6d6c6c; /* Adiciona uma borda inferior para os campos */
+  padding: 6px 0; /* Adiciona espaçamento interno vertical */
+  font-size: 16px; /* Define o tamanho da fonte nos campos */
+}
+
+.userRegistrationFormEquip label {
+  display: block; /* Garante que o label fique em uma linha separada */
+  margin-bottom: 8px; /* Espaço entre o label e a caixa de seleção */
+  font-size: 16px;
+  color: #4F4E4E;
+  margin-bottom: 6px;
+}
+
+.formGroup select {
+  margin-left: 1px;
+  color: #6d6c6c;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 10px; /* Espaçamento inferior consistente */
+}
+
+
+/* Estilos para o contador de caracteres */
+.charCount {
+  font-size: 12px; /* Define o tamanho da fonte menor para o contador */
+  text-align: right; /* Alinha o texto do contador à direita */
+  color: #6d6c6c; /* Define a cor do texto como cinza */
+}
+
+/* Estilos para os botões em geral */
+button {
+  padding: 10px 45px; /* Define o espaçamento interno do botão */
+  background-color: #009FE0; /* Define a cor de fundo azul */
+  color: white; /* Define a cor do texto como branco */
+  border: none; /* Remove a borda padrão dos botões */
+  cursor: pointer; /* Define o cursor de ponteiro ao passar o mouse */
+  border-radius: 5px; /* Arredonda as bordas dos botões */
+  font-size: 16px; /* Define o tamanho da fonte dos botões */
+}
+
+/* Efeito ao passar o mouse sobre qualquer botão */
+button:hover {
+  background-color: #0056b3; /* Muda a cor de fundo para um azul mais escuro ao passar o mouse */
+}
+
+/* Estilos específicos para o botão de tipo 'button' (ex: o botão "Voltar") */
+button[type='button'] {
+  background-color: #C7C7C7; /* Define a cor de fundo como cinza claro */
+  margin-right: 20px; /* Adiciona margem à direita para espaçar os botões */
+}
+
+/* Efeito ao passar o mouse sobre o botão 'Voltar' */
+button[type='button']:hover {
+  background-color: #999; /* Muda a cor de fundo do botão para um cinza mais escuro ao passar o mouse */
+}
+
+

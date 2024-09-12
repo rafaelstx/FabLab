@@ -1,0 +1,25 @@
+/* Ajuste a altura da página para ocupar toda a tela */
+.pageContainer {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 100px); /* Subtrai a altura do header para preencher o restante da página */
+  font-family: 'DM Sans', sans-serif;
+}
+
+.contentContainer {
+  margin-left: 200px; /* Deixa espaço para a sidebar */
+  padding: 20px;
+  width: calc(100% - 200px); /* Preenche o restante da largura */
+  height: 100%;
+  overflow-y: auto; /* Permite rolagem, se necessário */
+}
+
+/* O footer fica fixo na parte inferior */
+.footerContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

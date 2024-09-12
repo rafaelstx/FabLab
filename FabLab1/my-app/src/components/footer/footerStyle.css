@@ -1,0 +1,30 @@
+.containerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.imgContainerFooter {
+    width: 237px;
+    height: 79px;
+    padding: 0px 0px 2px 8px;
+    margin-left: 40px; 
+}
+
+.footerText {
+    text-align: center; 
+    color: black; 
+    font-size: 18px; 
+    margin-top: 10px; 
+    margin-left: 500px; /* Centraliza o texto horizontalmente */
+    margin-right: auto;
+}
